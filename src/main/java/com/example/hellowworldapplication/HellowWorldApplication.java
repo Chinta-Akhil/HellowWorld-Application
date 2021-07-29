@@ -20,4 +20,9 @@ public class HellowWorldApplication {
     public String sayHello() {
         return "Hello World!";
     }
+
+    @GetMapping("/hello1")
+    public String sayHello1() {
+        return "Hello Akhil!";
+    }
 }
