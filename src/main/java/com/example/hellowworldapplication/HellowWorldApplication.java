@@ -22,6 +22,11 @@ public class HellowWorldApplication {
         return "Hello Akhil!!!!!!!";
     }
 
+    @GetMapping("/Pooja")
+    public String getPooja() {
+        return "Hello Pooja!!!!!!!";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(HellowWorldApplication.class, args);
     }
